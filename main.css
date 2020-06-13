@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
 #page-content {
   width: 100vw;
 }
@@ -14,48 +16,80 @@
   width: 50vw;
 }
 
+#super-inner-content {
+  padding-left: 5vw;
+  text-align: center;
+  width: 40vw;
+}
+
+#button-links {
+  padding-left: 5vw;
+  width: 30vw;
+}
+
 body {
   background-color: #E7ECEF;
 }
 
 p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Yatra One', cursive;
   font-weight: 400;
   color: #272932;
 }
 
-h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+h1 {
+  font-family: 'Yatra One', cursive;
   font-weight: 800;
   color: #272932;
+}
+
+h4 {
+  font-family: 'Yatra One', cursive;
+  font-weight: 800;
+  color: white;
+  margin: 0 0;
 }
 
 p > a {
   position: relative;
   color: #000;
-  text-decoration: none;
 }
 
-p > a:hover {
-  color: #000;
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 36px;
+  background-color: transparent;
+  transform: skew(-20deg);
+  border: none;
+  background: black;
+  width: -webkit-fill-available;
 }
 
-p > a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-  -webkit-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s;
+/* Download dropdown Button */
+.dropbtn-download {
+  color: white;
+  padding: 16px;
+  font-size: 36px;
+  background-color: transparent;
+  transform: skew(-20deg);
+  border: none;
+  background: #663a82;
+  width: -webkit-fill-available;
+
 }
 
-p > a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
+.reverse-skew {
+    display: block;
+    transform: skew(20deg);
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #646464;}
+
+.dropdown:hover .dropbtn-download {background-color: #3c1c61;}
+
+a:hover {
+  cursor: pointer;
 }
