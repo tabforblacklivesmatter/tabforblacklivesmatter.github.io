@@ -18,14 +18,14 @@
 }
 
 #super-inner-content {
-  padding-left: 5vw;
   text-align: center;
   width: 40vw;
+  margin-left: 5vw;
 }
 
 #button-links {
-  padding-left: 5vw;
   width: 30vw;
+  margin-left: 5vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -48,12 +48,10 @@
   }
 
   #super-inner-content {
-    padding-left: 5vw;
     width: 60vw;
   }
 
   #button-links {
-    padding-left: 5vw;
     width: 50vw;
   }
 }
