@@ -122,3 +122,7 @@ p > a {
 a:hover {
   cursor: pointer;
 }
+
+button {
+  cursor: pointer;
+}
