@@ -166,3 +166,7 @@ button {
 #download:hover {
   background: #646464;
 }
+
+#faq-hidden-content {
+  display: none;
+}
