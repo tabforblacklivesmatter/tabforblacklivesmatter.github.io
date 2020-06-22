@@ -158,3 +158,11 @@ button {
   flex-direction: column;
   margin: 50px;
 }
+
+#download {
+  background: #3c1c61;
+}
+
+#download:hover {
+  background: #646464;
+}
